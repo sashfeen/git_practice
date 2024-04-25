@@ -7,11 +7,22 @@
     justify-content: space-around;
     background: white;
     align-items: center;
-    min-width: 400;
+    width: 500px;
+    padding: 20px;
+    border: 2px solid rgb(245, 148, 148);
+}
+.recipe:hover{
+    border: 3px solid rgb(250, 0, 0);
 }
 .image{
     border-radius: 50%;
     width: 100px;
     height: 100px;
     
+}
+.text {
+    font-size: 10px;
+}
+.header_text {
+    font-size: 30px;
 }
