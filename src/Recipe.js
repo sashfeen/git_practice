@@ -8,10 +8,10 @@ const Recipe = ({title, calories, ingredients, url, image}) => {
     );
     return (
         <div className={styles.recipe}>
-            <h1>{title}</h1>
+            <h1 className={styles.header_text}>{title}</h1>
             <h5>Calories: {calories}</h5>
             <img className={styles.image} src={image} alt="Image of recipe." />
-            <p>
+            <p className={styles.text}>
                 Ingredients: <br></br> <ol>{listItems}</ol> 
                 <br></br>
                 URL: {url}
